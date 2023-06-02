@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node_version: ['8', '10', '12', '14', '16']
+        node_version: ['14', '16']
     steps: 
       - name: Krok 1
         uses: actions/checkout@v2
