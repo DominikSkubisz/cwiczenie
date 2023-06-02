@@ -28,7 +28,7 @@ jobs:
         uses: appservice-build@v3
         with: 
           platform: nodejs
-          version: 14.21.3
+          version: 18.16.0
       - name: Deployment aplikacja na Azure
         uses: azure/webapps-deploy@v1
         with:
